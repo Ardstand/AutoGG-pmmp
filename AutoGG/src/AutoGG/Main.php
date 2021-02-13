@@ -27,7 +27,6 @@ class Main extends PluginBase implements Listener {
         $player = $event->getPlayer();
         $this->count[$player->getName()] = 0;
     }
-    //$server->dispatchCommand(new ConsoleCommandSender(), 'sudo $attacker GG');for now
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
     {
     if (isset($args[0])) {
