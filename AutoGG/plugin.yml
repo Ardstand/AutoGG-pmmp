@@ -1,0 +1,9 @@
+name: AutoGG
+main: AutoGG\Main
+author: Blaze7105
+api: 3.0.0
+version: 1.0.0
+commands:
+  autogg:
+    usage: /autogg <enable/disable>
+    aliases: ['gg']
